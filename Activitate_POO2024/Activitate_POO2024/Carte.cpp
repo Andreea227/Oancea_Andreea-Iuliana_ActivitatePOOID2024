@@ -24,4 +24,13 @@ public:
 		this->an = 2024;
 
 	}
+
+	Carte(string titlu, string autor, int nrPagini, int nrCapitole, int an)
+	{
+		this->titlu = titlu;
+		this->autor = autor;
+		this->nrPagini = nrPagini;
+		this->nrCapitole = nrCapitole;
+		this->an = an;
+	}
 };
