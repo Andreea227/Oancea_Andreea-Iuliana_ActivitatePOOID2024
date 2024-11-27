@@ -17,6 +17,11 @@ private:
 public:
 	Carte()
 	{
-	
+		this->titlu = "Necunoscut";
+		this->autor = "Anonim";
+		this->nrPagini = 3;
+		this->nrCapitole = 1;
+		this->an = 2024;
+
 	}
 };
