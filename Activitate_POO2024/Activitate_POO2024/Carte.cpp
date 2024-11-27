@@ -12,4 +12,11 @@ private:
 	int nrPagini;
 	int nrCapitole;
 	int an;
+
+
+public:
+	Carte()
+	{
+	
+	}
 };
